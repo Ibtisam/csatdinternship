@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support & Contact - CS Internship Program</title>
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="../assets/images/iliaa-logo.png" alt="CUI Logo" class="logo">
+                <div class="logo-text">
+                    <h3>CUI-CS, Dhamtour Campus</h3>
+                    <p>Industrial Liaison, Internships & Alumni Affairs Office</p>
+                </div>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="students.html" class="nav-link">Students</a>
+                <a href="supervisors.html" class="nav-link">Supervisors</a>
+                <a href="partners.html" class="nav-link">Partners</a>
+                <!--<a href="pages/announcements.html" class="nav-link">Announcements</a>-->
+                <a href="support.html" class="nav-link active">Support</a>
+                <!--<a href="../index.html#apply" class="nav-link btn-primary">Apply Now</a>-->
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Support & Contact</h1>
+            <p class="hero-subtitle">We're here to help you with all internship-related queries</p>
+            <div class="hero-buttons" style="justify-content: center; margin-top: 30px;">
+                <a href="#contact" class="btn btn-primary">Contact Us</a>
+                <a href="#faqs" class="btn btn-secondary">View FAQs</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="content-grid">
+                <div class="content-main">
+                    <!-- Contact Information -->
+                    <div class="info-card" id="contact">
+                        <h2><i class="fas fa-address-card"></i> Internship Office Contact</h2>
+                        <div class="contact-grid">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h3>Email</h3>
+                                    <p>csinternshipoffice@cuiatd.edu.pk</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <h3>Phone</h3>
+                                    <p>+92-323-4520282</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h3>Office Location</h3>
+                                    <p>Room: S414 S-Block<br>COMSATS University Islamabad, Abbottabad - Dhamtour Campus<br>Dhamtour Road, Abbottabad</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <h3>Office Hours</h3>
+                                    <p>Monday - Thursday: 09:00-16:00<br>Friday: 09:00-13:00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="info-card">
+                        <h2><i class="fas fa-paper-plane"></i> Send us a Message</h2>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="role">Your Role *</label>
+                                <select id="role" name="role" required>
+                                    <option value="">Select your role</option>
+                                    <option value="student">Student</option>
+                                    <option value="faculty">Faculty Supervisor</option>
+                                    <option value="industry">Industry Supervisor</option>
+                                    <option value="partner">Prospective Partner</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Comprehensive FAQs -->
+                    <div class="info-card" id="faqs">
+                        <h2><i class="fas fa-question-circle"></i> Frequently Asked Questions</h2>
+                        <div class="faq-categories">
+                            <div class="faq-category">
+                                <h3>Student FAQs</h3>
+                                <div class="faq-item">
+                                    <h4>When should I start looking for an internship?</h4>
+                                    <p>We recommend starting your search at least 2-3 months before your intended start date. This gives you enough time to find suitable opportunities and complete the approval process.</p>
+                                </div>
+                                <div class="faq-item">
+                                    <h4>Can I do an internship with a company not on the approved list?</h4>
+                                    <p>Yes, you can arrange your own internship. However, the organization and proposed work must be approved by the internship office before you begin.</p>
+                                </div>
+                            </div>
+
+                            <div class="faq-category">
+                                <h3>Partner FAQs</h3>
+                                <div class="faq-item">
+                                    <h4>What are the benefits of becoming a partner organization?</h4>
+                                    <p>Partner organizations get access to talented students, opportunity to shape future professionals, potential recruitment pipeline, and academic collaboration opportunities.</p>
+                                </div>
+                                <div class="faq-item">
+                                    <h4>How many interns can we host?</h4>
+                                    <p>There's no strict limit, but we recommend starting with 1-2 interns to ensure proper supervision and meaningful experiences.</p>
+                                </div>
+                            </div>
+
+                            <div class="faq-category">
+                                <h3>General FAQs</h3>
+                                <div class="faq-item">
+                                    <h4>What is the duration of the internship?</h4>
+                                    <p>The internship requires a minimum of 6-8 continuous weeks of full-time equivalent work.</p>
+                                </div>
+                                <div class="faq-item">
+                                    <h4>Are virtual internships accepted?</h4>
+                                    <p>Yes, virtual internships are accepted and must meet the same academic standards as on-site internships.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-sidebar">
+                    <!-- Quick Support -->
+                    <div class="sidebar-card">
+                        <h3><i class="fas fa-headset"></i> Quick Support</h3>
+                        <div class="support-links">
+                            <a href="mailto:csinternshipoffice@cuiatd.edu.pk" class="support-link">
+                                <i class="fas fa-envelope"></i>
+                                Email Support
+                            </a>
+                            <a href="tel:+92510000000" class="support-link">
+                                <i class="fas fa-phone"></i>
+                                Call Office
+                            </a>
+                            <a href="../index.html#apply" class="support-link">
+                                <i class="fas fa-rocket"></i>
+                                Application Help
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Staff Directory -->
+                    <div class="sidebar-card">
+                        <h3><i class="fas fa-users"></i> Internship Office Staff</h3>
+                        <div class="staff-list">
+                            <div class="staff-member">
+                                <strong>Dr. Muhammad Ibtisam Gul</strong>
+                                <span>Convener</span>
+                                <small>ibtisamgull@cuiatd.edu.pk</small>
+                            </div>
+                            <div class="staff-member">
+                                <strong>Mr. Muhammad Ali Faisal</strong>
+                                <span>Member</span>
+                                <small>mfaisal@cuiatd.edu.pk</small>
+                            </div>
+                            <div class="staff-member">
+                                <strong>Mr. Waqar Khursheed</strong>
+                                <span>Member</span>
+                                <small>waqarkhurshid@cuiatd.edu.pk</small>
+                            </div>
+                            <div class="staff-member">
+                                <strong>Mr. Muhammad Yasir</strong>
+                                <span>Member</span>
+                                <small>myasir@cuiatd.edu.pk</small>
+                            </div>
+                            <div class="staff-member">
+                                <strong>Ms. Sana Malik</strong>
+                                <span>Member</span>
+                                <small>sanam@cuiatd.edu.pk</small>
+                            </div>
+                            <div class="staff-member">
+                                <strong>Ms. Qurat Ul Ain</strong>
+                                <span>Member</span>
+                                <small>quratulain@cuiatd.edu.pk</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Emergency Contact -->
+                    <div class="sidebar-card emergency">
+                        <h3><i class="fas fa-exclamation-triangle"></i> Urgent Matters</h3>
+                        <p>For urgent internship-related issues during off-hours:</p>
+                        <div class="emergency-contact">
+                            <strong>Dr. Muhammad Ibtisam Gul</strong>
+                            <span>+92-323-4520282</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2><i class="fas fa-map-marked-alt"></i> Find Us</h2>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>COMSATS University Islamabad</h3>
+                    <p>Abbottabad Campus, Dhamtour (SUB-CAMPUS)<br>Abbottabad, Khyber Pakhtunkhwa, Pakistan</p>
+                    <a href="https://www.google.com/maps/place/CUI+Abbotabad,+Dhamtour+%28SUB-CAMPUS%29/data=!4m7!3m6!1s0x38de32020d2252df:0x64380f173d2882c5!8m2!3d34.1420384!4d73.2692455!16s%2Fg%2F11hcz1td0h!19sChIJ31IiDQIy3jgRxYIoPRcPOGQ?authuser=0&hl=en&rclk=1"
+                        class="btn btn-primary" target="_blank">
+                        Open in Google Maps
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-envelope"></i> csinternshipoffice@cuiatd.edu.pk</p>
+                    <p><i class="fas fa-phone"></i> +92-323-4520282</p>
+                    <p><i class="fas fa-map-marker-alt"></i>S414, S - Block, CUI, Abt - Dhamtour Campus</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="pages/students.html">Student Resources</a>
+                    <a href="pages/supervisors.html">Supervisor Guidelines</a>
+                    <a href="pages/partners.html">Partner Information</a>
+                    <a href="pages/support.html">Support & Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Office Hours</h3>
+                    <p>Monday - Thursday: 9:00 AM - 5:00 PM</p>
+                    <p>Friday: 9:00 AM - 1:00 PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 COMSATS University Islamabad, Abbottabad Campus - Department of Computer Science. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="../scripts/script.js"></script>
+</body>
+</html>

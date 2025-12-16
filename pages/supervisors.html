@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supervisor Resources - CS Internship Program</title>
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <img
+            src="../assets/images/iliaa-logo.png"
+            alt="CUI Logo"
+            class="logo"
+          />
+          <div class="logo-text">
+            <h3>CUI-CS, Dhamtour Campus</h3>
+            <p>Industrial Liaison, Internships & Alumni Affairs Office</p>
+          </div>
+        </div>
+        <div class="nav-menu" id="navMenu">
+          <a href="../index.html" class="nav-link">Home</a>
+          <a href="students.html" class="nav-link">Students</a>
+          <a href="supervisors.html" class="nav-link active">Supervisors</a>
+          <a href="partners.html" class="nav-link">Partners</a>
+          <!--<a href="pages/announcements.html" class="nav-link">Announcements</a>-->
+          <a href="support.html" class="nav-link">Support</a>
+          <!--<a href="../index.html#apply" class="nav-link btn-primary">Apply Now</a>-->
+        </div>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <section class="page-hero">
+      <div class="container">
+        <h1>Supervisor Resources</h1>
+        <p class="hero-subtitle">
+          Guidelines and information for faculty and industry supervisors
+        </p>
+        <div
+          class="hero-buttons"
+          style="justify-content: center; margin-top: 30px"
+        >
+          <a
+            href="#faculty-tab"
+            class="btn btn-primary"
+            onclick="switchToTab('faculty')"
+            >Faculty Guidelines</a
+          >
+          <a
+            href="#industry-tab"
+            class="btn btn-secondary"
+            onclick="switchToTab('industry')"
+            >Industry Guidelines</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <div class="supervisor-tabs">
+          <button class="tab-btn active" data-tab="faculty">
+            Faculty Supervisors
+          </button>
+          <button class="tab-btn" data-tab="industry">
+            Industry Supervisors
+          </button>
+        </div>
+
+        <div class="tab-content active" id="faculty-tab">
+          <!-- Faculty Supervisor Content -->
+          <div class="content-grid">
+            <div class="content-main">
+              <div class="info-card">
+                <h2><i class="fas fa-user-tie"></i> Faculty Supervisor Role</h2>
+                <p>
+                  As a Faculty Supervisor, you play a crucial role in guiding
+                  students through their internship journey and ensuring
+                  academic standards are maintained.
+                </p>
+
+                <h3>Key Responsibilities:</h3>
+                <ul class="responsibilities-list">
+                  <li>Review and approve internship proposals</li>
+                  <li>Monitor student progress through weekly logs</li>
+                  <li>Evaluate final internship reports</li>
+                  <li>Provide academic guidance and support</li>
+                  <li>Liaise with industry supervisors</li>
+                  <li>
+                    Assign final grades in coordination with internship office
+                  </li>
+                </ul>
+              </div>
+
+              <div class="info-card">
+                <h2><i class="fas fa-tasks"></i> Evaluation Process</h2>
+                <div class="evaluation-steps">
+                  <div class="eval-step">
+                    <h3>Initial Approval</h3>
+                    <p>
+                      Review and approve student internship proposals within
+                      first week
+                    </p>
+                  </div>
+                  <div class="eval-step">
+                    <h3>Mid-term Check</h3>
+                    <p>
+                      Monitor progress through weekly activity logs and provide
+                      feedback
+                    </p>
+                  </div>
+                  <div class="eval-step">
+                    <h3>Final Evaluation</h3>
+                    <p>
+                      Evaluate final report, reflective summary, and overall
+                      performance
+                    </p>
+                  </div>
+                  <div class="eval-step">
+                    <h3>Grade Submission</h3>
+                    <p>
+                      Submit final evaluation to internship office within one
+                      week of internship completion
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="content-sidebar">
+              <div class="sidebar-card">
+                <h3><i class="fas fa-download"></i> Faculty Resources</h3>
+                <div class="download-links">
+                  <a
+                    href="../assets/downloads/InternshipHandbookV6.0.pdf"
+                    target="_blank"
+                    class="download-link"
+                  >
+                    <i class="fas fa-file-pdf"></i>
+                    Internship Handbook
+                  </a>
+                  <a
+                    href="../assets/downloads/Internship_Attachments_Internship_Assignment.pdf"
+                    target="_blank"
+                    class="download-link"
+                  >
+                    <i class="fas fa-file-word"></i>
+                    Assignment Form
+                  </a>
+                  <a
+                    href="../assets/downloads/Internship_Attachments_Design_Proposal.pdf"
+                    target="_blank"
+                    class="download-link"
+                  >
+                    <i class="fas fa-file-word"></i>
+                    Design Proposal
+                  </a>
+                  <a
+                    href="../assets/downloads/Internship_Attachments_Internship_Report_Onsite.pdf"
+                    target="_blank"
+                    class="download-link"
+                  >
+                    <i class="fas fa-file-pdf"></i>
+                    Internship Report Onsite
+                  </a>
+                  <a
+                    href="../assets/downloads/Internship_Attachments_Internship_Report_FreeLance.pdf"
+                    target="_blank"
+                    class="download-link"
+                  >
+                    <i class="fas fa-file-pdf"></i>
+                    Internship Report Freelancing
+                  </a>
+                  <a
+                    href="../assets/downloads/Internship_Attachments_FS_Eval.pdf"
+                    target="_blank"
+                    class="download-link"
+                  >
+                    <i class="fas fa-file-pdf"></i>
+                    Evaluation Form (Traditional)
+                  </a>
+                  <a
+                    href="../assets/downloads/Internship_Attachments_FS_Eval_FL.pdf"
+                    target="_blank"
+                    class="download-link"
+                  >
+                    <i class="fas fa-file-pdf"></i>
+                    Evaluation Form (FreeLancing)
+                  </a>
+                </div>
+              </div>
+
+              <div class="sidebar-card">
+                <h3><i class="fas fa-calendar-alt"></i> Important Dates</h3>
+                <div class="dates-list">
+                  <div class="date-item">
+                    <strong>Winter Internships Process</strong>
+                    <span>December 16, 2025</span>
+                  </div>
+                  <div class="date-item">
+                    <strong>Commencement of Winter Internships</strong>
+                    <span>Mid January 2026</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="industry-tab">
+          <!-- Industry Supervisor Content -->
+          <div class="content-grid">
+            <div class="content-main">
+              <div class="info-card">
+                <h2>
+                  <i class="fas fa-building"></i> Industry Supervisor Role
+                </h2>
+                <p>
+                  As an Industry Supervisor, you provide real-world guidance and
+                  ensure students gain valuable professional experience.
+                </p>
+
+                <h3>Key Responsibilities:</h3>
+                <ul class="responsibilities-list">
+                  <li>Provide meaningful technical work assignments</li>
+                  <li>
+                    Introduce student to organizational culture and practices
+                  </li>
+                  <li>
+                    Monitor daily performance and provide regular feedback
+                  </li>
+                  <li>Complete mid-term and final evaluations</li>
+                  <li>Ensure a safe and professional work environment</li>
+                  <li>Communicate with faculty supervisor as needed</li>
+                </ul>
+              </div>
+
+              <div class="info-card">
+                <h2><i class="fas fa-star"></i> Evaluation Criteria</h2>
+                <div class="criteria-grid">
+                  <div class="criterion">
+                    <h4>Technical Skills</h4>
+                    <p>
+                      Application of technical knowledge, problem-solving
+                      abilities
+                    </p>
+                  </div>
+                  <div class="criterion">
+                    <h4>Professionalism</h4>
+                    <p>Punctuality, work ethic, professional conduct</p>
+                  </div>
+                  <div class="criterion">
+                    <h4>Communication</h4>
+                    <p>Verbal and written communication skills</p>
+                  </div>
+                  <div class="criterion">
+                    <h4>Teamwork</h4>
+                    <p>Collaboration and interpersonal skills</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="content-sidebar">
+              <div class="sidebar-card">
+                <h3><i class="fas fa-download"></i> Industry Resources</h3>
+                <div class="download-links">
+                  <a
+                    href="../assets/downloads/InternshipHandbookV6.0.pdf"
+                    target="_blank"
+                    class="download-link"
+                  >
+                    <i class="fas fa-file-pdf"></i>
+                    Internship Handbook
+                  </a>
+                  <a
+                    href="../assets/downloads/Internship_Attachments_Org_Approval.pdf"
+                    target="_blank"
+                    class="download-link"
+                  >
+                    <i class="fas fa-file-pdf"></i>
+                    Organizational Approval Form
+                  </a>
+                  <a
+                    href="../assets/downloads/Internship_Attachments_SS_Eval.pdf"
+                    target="_blank"
+                    class="download-link"
+                  >
+                    <i class="fas fa-file-pdf"></i>
+                    Evaluation Form
+                  </a>
+                </div>
+              </div>
+
+              <div class="sidebar-card">
+                <h3><i class="fas fa-headset"></i> Support</h3>
+                <p>Need assistance? Contact the internship office:</p>
+                <p><strong>Email:</strong> csinternshipoffice@cuiatd.edu.pk</p>
+                <p><strong>Phone:</strong> +92-323-4520282</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Contact Information</h3>
+            <p>
+              <i class="fas fa-envelope"></i> csinternshipoffice@cuiatd.edu.pk
+            </p>
+            <p><i class="fas fa-phone"></i> +92-323-4520282</p>
+            <p>
+              <i class="fas fa-map-marker-alt"></i>S414, S - Block, CUI, Abt -
+              Dhamtour Campus
+            </p>
+          </div>
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <a href="pages/students.html">Student Resources</a>
+            <a href="pages/supervisors.html">Supervisor Guidelines</a>
+            <a href="pages/partners.html">Partner Information</a>
+            <a href="pages/support.html">Support & Contact</a>
+          </div>
+          <div class="footer-section">
+            <h3>Office Hours</h3>
+            <p>Monday - Thursday: 9:00 AM - 5:00 PM</p>
+            <p>Friday: 9:00 AM - 1:00 PM</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 COMSATS University Islamabad, Abbottabad Campus -
+            Department of Computer Science. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../scripts/script.js"></script>
+    <script>
+      // Tab functionality for supervisors page
+      document.addEventListener("DOMContentLoaded", function () {
+        const tabBtns = document.querySelectorAll(".tab-btn");
+        const tabContents = document.querySelectorAll(".tab-content");
+
+        tabBtns.forEach((btn) => {
+          btn.addEventListener("click", function () {
+            const tabId = this.getAttribute("data-tab");
+
+            // Remove active class from all buttons and contents
+            tabBtns.forEach((b) => b.classList.remove("active"));
+            tabContents.forEach((c) => c.classList.remove("active"));
+
+            // Add active class to current button and content
+            this.classList.add("active");
+            document.getElementById(`${tabId}-tab`).classList.add("active");
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
