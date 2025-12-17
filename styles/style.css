@@ -1265,6 +1265,16 @@ h2:after {
     .sidebar-card {
         padding: 25px 20px;
     }
+
+    .logo {
+        height: 40px; /* Reduce logo size on tablets */
+    }
+    .logo-text h3 {
+        font-size: 1rem;
+    }
+    .logo-text p {
+        font-size: 0.7rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1298,6 +1308,16 @@ h2:after {
     
     .sidebar-card {
         padding: 20px 15px;
+    }
+
+    .logo {
+        height: 35px; /* Further reduce on phones */
+    }
+    .logo-text h3 {
+        font-size: 0.9rem;
+    }
+    .logo-text p {
+        font-size: 0.6rem;
     }
 }
 
